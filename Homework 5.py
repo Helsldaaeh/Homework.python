@@ -34,3 +34,12 @@ for f in range(C - 2):
 print(E*P)
 
 
+U = int(input("Введите высоту: "))
+for k in range(U):
+    k = 1
+for y in range(U):
+        print((U-y) * " " + y * "*",k * "*", y * "*")
+for v in range(U, 0, -1):
+    v = 1
+for x in range(U, -1, -1):
+        print((U-x) * " " + x * "*",v * "*",x * "*")
